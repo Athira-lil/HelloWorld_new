@@ -30,6 +30,9 @@ public class Main {
         editor.setContent("c");
         editor.restoreState(history.pop());
 
+        editor.setContent("d");
+        editor.restoreState(history.pop());
+
         System.out.println(editor.getContent());
 
     }
